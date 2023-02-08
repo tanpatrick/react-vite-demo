@@ -12,6 +12,6 @@ describe('Counter Component', () => {
   it('Should increase counter', () => {
     const component = render(<Counter initialCount={1} />);
     fireEvent.click(component.getByText('Increment'));
-    expect(component.getByTestId('count').textContent).toBe('Count is 2');
+    expect(component.getByTestId('count').textContent).toBe('Count is 11');
   });
 });

@@ -8,6 +8,7 @@ const config: UserConfigExport = defineConfig({
   plugins: [react()],
   test: {
     environment: 'jsdom',
+    exclude: ['node_modules', 'playwright'],
     globals: true,
     outputFile: 'test-results/junit.xml',
     reporters: ['junit', 'verbose'],

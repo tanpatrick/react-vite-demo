@@ -15,7 +15,32 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.13.0.tgz#0400d1e6ce87e9d3032c19eb6c58205b0d3f7850"
   integrity sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==
 
+allure-js-commons@2.0.0-beta.26:
+  version "2.0.0-beta.26"
+  resolved "https://registry.yarnpkg.com/allure-js-commons/-/allure-js-commons-2.0.0-beta.26.tgz#e049943cc8f5b91d1b62bc51805e1131ff2708a5"
+  integrity sha512-rGb3RT6hX3QDP08LlkBktRP9nstvX5VASoow87YOx7mynBv3UoIjNuwt9rmkWQ93tqTSZYIpJxgDVtkUdVLYsw==
+  dependencies:
+    properties "^1.2.1"
+    uuid "^8.3.0"
+
+allure-playwright@^2.0.0-beta.26:
+  version "2.0.0-beta.26"
+  resolved "https://registry.yarnpkg.com/allure-playwright/-/allure-playwright-2.0.0-beta.26.tgz#354e6d5b39d653b87dd80db1483b7e1ab8e65a00"
+  integrity sha512-HcsehXzb8+M3nP3gboxgPEt5SExIsl211LZ3eJ5hOf+2329xecMRAysJVNsZW6IzJMP47jGupBilVhJ3TQ9Ovw==
+  dependencies:
+    allure-js-commons "2.0.0-beta.26"
+
 playwright-core@1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.30.0.tgz#de987cea2e86669e3b85732d230c277771873285"
   integrity sha512-7AnRmTCf+GVYhHbLJsGUtskWTE33SwMZkybJ0v6rqR1boxq2x36U7p1vDRV7HO2IwTZgmycracLxPEJI49wu4g==
+
+properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
+  integrity sha512-qYNxyMj1JeW54i/EWEFsM1cVwxJbtgPp8+0Wg9XjNaK6VE/c4oRi6PNu5p7w1mNXEIQIjV5Wwn8v8Gz82/QzdQ==
+
+uuid@^8.3.0:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
